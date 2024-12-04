@@ -1,0 +1,7 @@
+@import '../components/pages/create-course/ui/crete-course-page.css';
+@import '../components/course-sections/course-cards/course-card.css';
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+

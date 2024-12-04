@@ -1,0 +1,27 @@
+.tariff-card {
+  @apply rounded-[16px] flex flex-col gap-[16px] text-[#2563EB]  relative;
+  @apply xl:py-[16px] px-[24px] bg-[#FFFFFF] border-gradient-tariff;
+  @apply hover:shadow-xl ease-in-out duration-300 cursor-pointer;
+  div {
+    @apply flex flex-col gap-[8px];
+    h4 {
+      @apply text-[12px];
+    }
+    h3 {
+      @apply text-[16px] font-semibold;
+    }
+  }
+  ul {
+    @apply space-y-2 min-w-[160px];
+    li {
+      @apply flex items-center  gap-2;
+    }
+  }
+
+  button {
+    @apply bg-white text-[#2563EB] rounded-[16px] px-[12px] py-[6px] relative border-gradient-tariff hover:bg-gray-100;
+  }
+}
+.selected {
+  @apply bg-[#EFF6FF];
+}

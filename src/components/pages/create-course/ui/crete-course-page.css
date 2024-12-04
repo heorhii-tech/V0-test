@@ -1,0 +1,9 @@
+.taxonomy-list{
+  
+}
+.tariff-plan{
+    @apply flex  gap-[16px] my-[50px] mx-auto justify-between;
+}
+.course-page{
+    @apply max-w-[790px];
+}
